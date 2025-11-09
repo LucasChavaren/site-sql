@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atacadão Supermercado - Tabela de Funcionários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header >Atacadão Supermercado - Funcionários</header>
+    <table id="tabela" class="tabela-teste">
+        <tr>
+            <th>Funcionário</th>
+            <th>Idade</th>
+            <th>Tempo trabalhando na empresa</th>
+        </tr>
+        <tr>
+            <td>João Pedro</td>
+            <td>21</td>
+            <td>2 anos</td>
+        </tr>
+        <tr>
+            <td>Larissa</td>
+            <td>28</td>
+            <td>4 anos</td>
+        </tr>
+        <tr>
+            <td>Augusto</td>
+            <td>25</td>
+            <td>3 anos</td>
+        </tr>
+        <tr>
+            <td>Matheus</td>
+            <td>27</td>
+            <td>6 anos</td>
+        </tr>
+    </table>
+
+<div class="botoes">
+    <button onclick="selectFuncionarios()">Listar funcionários (SELECT)</button>
+    <button onclick="insertFuncionario()">Adicionar funcionário (INSERT)</button>
+    <button onclick="updateFuncionario()">Alterar funcionário (UPDATE)</button>
+    <button onclick="deleteFuncionario()">Excluir funcionário (DELETE)</button>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

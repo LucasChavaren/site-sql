@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Sans:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+header{
+    text-align: center;
+    font-size: 36px;
+    padding: 15px 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+body{
+    background-color: #FFA53F;
+}
+
+.tabela-teste{
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 60%;
+    margin-top: 30px;
+    background-color: white;
+}
+
+td{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Momo Trust Sans', sans-serif;
+}
+
+th{
+    background-color: blue;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: 'Momo Trust Sans', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.botoes{
+    text-align: center;
+    margin-top: 10px;
+}
+
+button{
+    background-color: beige;
+    border: none;
+    padding: 5px;
+    border-radius: 7px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
